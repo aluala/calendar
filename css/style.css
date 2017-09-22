@@ -1,0 +1,38 @@
+.calendar {
+    text-align: center;
+    background-color: #43ceae;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.calendar .days {
+    background-color: white;
+}
+
+.calendar .days > table {
+    margin: auto;
+    width: 100%;
+}
+
+.calendar .days > table tr > th {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #d9d9d9;
+}
+
+.calendar .days > table tr > td {
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.calendar .year {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.calendar .month {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
